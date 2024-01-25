@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestUI" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-01-25T20:13:43" hostname="ANNA" time="0.145">
+<testsuite name="TestUI" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-01-25T20:22:49" hostname="ANNA" time="0.154">
   <properties/>
-  <testcase name="РџСЂРѕРІРµСЂРєР° РѕС‚РєСЂС‹С‚РёСЏ РіР»Р°РІРЅРѕР№ СЃС‚СЂР°РЅРёС†С‹" classname="TestUI" time="0.145">
+  <testcase name="РџСЂРѕРІРµСЂРєР° РѕС‚РєСЂС‹С‚РёСЏ РіР»Р°РІРЅРѕР№ СЃС‚СЂР°РЅРёС†С‹" classname="TestUI" time="0.154">
     <failure message="java.lang.UnsupportedClassVersionError: io/github/bonigarcia/wdm/WebDriverManager has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: io/github/bonigarcia/wdm/WebDriverManager has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
 	at java.lang.ClassLoader.defineClass1(Native Method)
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
