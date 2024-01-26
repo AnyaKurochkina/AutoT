@@ -2,6 +2,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.FindBy;
 import pages.MainPage;
 
 import static com.codeborne.selenide.Selenide.$;
@@ -19,6 +20,7 @@ public class TestUI {
 
         new MainPage()
                 .clickLoginBtn();
+
 
     }
 }

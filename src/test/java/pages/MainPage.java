@@ -9,10 +9,11 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class MainPage {
 
-    private final SelenideElement enterToAccountButton = $(By.xpath("//button['loginBtn']"));
-
+    private final SelenideElement enterToAccountButton = $(By.xpath("//button[@id='loginBtn']"));
     public void clickLoginBtn() {
         enterToAccountButton.shouldBe(visible);
+
+
 
     }
 
