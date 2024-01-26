@@ -17,4 +17,11 @@ public class MainPage {
 
     }
 
+
+    private final SelenideElement inputPasswordField =$(By.xpath("//*[@id=\"Password\"]"));
+    private Condition correct;
+
+    public void inputpassword() {
+        inputPasswordField.shouldBe(correct);
+    }
 }
